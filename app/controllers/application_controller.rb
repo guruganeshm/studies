@@ -16,6 +16,7 @@ class ApplicationController < ActionController::Base
    user = User.create_with_password(@email, @password)
       if user 
           session[:signed_in] = true
+          session[:email] = params[:email]
           redirect_to '/home'
          else
 	  redirect_to '/sign_in.html'

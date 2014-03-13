@@ -95,7 +95,7 @@
 	margin: 0 0 46px 0;
 }
 #sign_up1 .footer input[type="email"],
-#sign_up1 .footer input[type="text"],
+#sign_up1 .footer input[type=""],
 #sign_up1 .footer input[type="password"] {
 	border-radius: 3px;
 	font-size: 16px;
@@ -310,7 +310,7 @@
 #sign_up2 .signin_box .box .form form{
 	margin: 0;
 }
-#sign_up2 .signin_box .box .form input[type="text"]{
+#sign_up2 .signin_box .box .form input[type="email"]{
 	border-radius: 3px;
 	font-size: 16px;
 	width: 96%;
@@ -380,7 +380,8 @@
 	#sign_up1 .header .social{
 		width: 35%;
 	}
-	#sign_up1 .footer input[type="text"], 
+	
+	#sign_up1 .footer input[type="email"], 
 	#sign_up1 .footer input[type="password"]{
 		width: 25%;
 	}
@@ -412,7 +413,7 @@
 	#sign_up1 .division .line{
 		border-color: #333;
 	}
-	#sign_up1 .footer input[type="text"], 
+	#sign_up1 .footer input[type="email"], 
 	#sign_up1 .footer input[type="password"]{
 		font-size: 13px;
 		width: 97%;

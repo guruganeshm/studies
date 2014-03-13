@@ -1,17 +1,12 @@
 class User < ActiveRecord::Base
-validates_presence_of :email, :salt, :password_hash, :password, :password_confiramtion
+validates_presence_of :email, :salt, :password_hash
 validates_uniqueness_of :email
 
 
 def self.create_with_password(email, password)
 	salt = SecureRandom.hex
 	password_hash = self.generate_hash(password, salt)
-
-	self.create(
-		email: email, 
-		salt: salt, 
-		password_hash: password_hash 
-		)
+	self.create(email: email, salt: salt, password_hash: password_hash)
 end
 
  def verify_password(password)

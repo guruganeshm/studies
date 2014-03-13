@@ -399,7 +399,7 @@
     #sign_in1 .header .social{
         width: 35%;
     }
-    #sign_in1 .footer input[type="text"], 
+    #sign_in1 .footer input[type="email"], 
     #sign_in1 .footer input[type="password"]{
         width: 25%;
     }
@@ -437,7 +437,7 @@
     #sign_in1 .division .line{
         border-color: #333;
     }
-    #sign_in1 .footer input[type="text"], 
+    #sign_in1 .footer input[type="email"], 
     #sign_in1 .footer input[type="password"]{
         font-size: 13px;
         width: 97%;
