@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+
+	<title>Business Template</title>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-overrides.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/divi.css" />
+	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600,700|Oswald:300,400|PT+Sans:400,700">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+    
+    <link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection" />   
+    	
+<link rel="stylesheet" type="text/css" href="css/features.css" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body class="pull_top">
+    <div class="navbar transparent navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="index.html">
+                <strong>CLEAN CANVAS</strong>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                   
+                    <li><a href="" class="active"> Welcome <%= session[:email] %></a></li>
+                    <li><a href="/logout" >logout</a></li>
+                </ul>
+            </div>
+        </div> 
+      </div>
+    </div>
+
+    <section id="feature_slider" class="">
+        <!-- 
+            Each slide is composed by <img> and .info
+            - .info's position is customized with css in index.css
+            - each <img> parallax effect is declared by the following params inside its class:
+            
+            example: class="asset left-472 sp600 t120 z3"
+            left-472 means left: -472px from the center
+            sp600 is speed transition
+            t120 is top to 120px
+            z3 is z-index to 3
+            Note: Maintain this order of params
+
+            For the backgrounds, you can combine from the bgs folder :D
+        -->
+    
+  
+        <article class="slide" id="tour" style="background: url('img/backgrounds/color-splash.jpg') repeat-x top center;">
+            <img class="asset left-580 sp650 t170 z3" src="img/slides/scene3/ipad.png" />
+            <img class="asset left-280 sp600 t170 z4" src="img/slides/scene3/iphone.png" />
+            <img class="asset left-350 sp450 t135 z2" src="img/slides/scene3/desktop.png" />
+            <img class="asset left-185 sp550 t220 z1" src="img/slides/scene3/macbook.png" />
+            <div class="info">
+                <h2>Fully Responsive theme</h2>
+                <a href="features.html">TOUR THE PRODUCT</a>
+            </div>
+        </article>
+        <article class="slide" id="responsive" style="background: url('img/backgrounds/indigo.jpg') repeat-x top center;">
+            <img class="asset left-472 sp600 t120 z3" src="img/slides/scene4/html5.png" />
+            <img class="asset left-190 sp500 t120 z2" src="img/slides/scene4/css3.png" />
+            <div class="info">
+                <h2>
+                    Responsive <strong>HTML5 & CSS3</strong>
+                    Theme
+                </h2>                
+            </div>
+        </article>        
+    </section>
+
+	
+	</br>
+    <div class="container">
+   <div class="section_header">
+	 <div class="latest_work_title">
+  <h1>Why Are You <span>Here</span></h1>
+  
+  
+ <center><p>Have you decided which career you will opt for after 10th,12th, Engg or Diplomo? If you are confused, just relax!</br>
+</br>
+ We are here to give you with various career options and opportunity you can go for. </center><p>
+ </div>
+ 
+ 
+  </div>
+ </div>
+ 
+	<hr/>
+
+<!-- Feature Wrapper -->
+         
+<div class="et_pb_section">
+<div class="latest_work_title">
+<div class="et_pb_row">
+<div class="et_pb_column et_pb_column_1_4">
+<div class="et_pb_blurb et_pb_bg_layout_light et_pb_text_align_center">
+<div class="et_pb_blurb_content">
+<div class="et_pb_main_blurb_image">
+<img class="et-waypoint et_pb_animation_top et-animated" alt="" src="img/feature1.png">
+</div>
+
+Select your qualification carreer or your qualification. 
+
+</div>
+</div>
+</div>
+<div class="et_pb_column et_pb_column_1_4">
+<div class="et_pb_blurb et_pb_bg_layout_light et_pb_text_align_center">
+<div class="et_pb_blurb_content">
+<div class="et_pb_main_blurb_image">
+<img class="et-waypoint et_pb_animation_top et-animated" alt="" src="img/feature1.png">
+</div>
+
+Select your qualification carreer or your qualification. 
+</div>
+</div>
+</div>
+<div class="et_pb_column et_pb_column_1_4">
+<div class="et_pb_blurb et_pb_bg_layout_light et_pb_text_align_center">
+<div class="et_pb_blurb_content">
+<div class="et_pb_main_blurb_image">
+<img class="et-waypoint et_pb_animation_top et-animated" alt="" src="img/feature1.png">
+</div>
+
+Select your qualification carreer or your qualification. 
+</div>
+</div>
+</div>
+<div class="et_pb_column et_pb_column_1_4">
+<div class="et_pb_blurb et_pb_bg_layout_light et_pb_text_align_center">
+<div class="et_pb_blurb_content">
+<div class="et_pb_main_blurb_image">
+<img class="et-waypoint et_pb_animation_top et-animated" alt="" src="img/feature1.png">
+</div>
+
+Select your qualification carreer or your qualification. 
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+
+<center><p>Have you decided which career you will opt for after 10th,12th, Engg or Diplomo? </br>
+Are your parents going to decide your career options or you are going to follow your friends’ advice?</br>
+If you are confused, just relax! Every student gets confused during this period.</br> 
+We are here to give you with various career options and opportunity you can go for. </center><p>
+	 
+	 
+	 
+	 
+	
+	
+	
+
+  <!-- starts footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row sections">
+                
+                
+                
+            </div>
+            <div class="row credits">
+                <div class="span12">
+                    <div class="row social">
+                        <div class="span12">
+                            <a href="#" class="facebook">
+                                <span class="socialicons ico1"></span>
+                                <span class="socialicons_h ico1h"></span>
+                            </a>
+                            <a href="#" class="twitter">
+                                <span class="socialicons ico2"></span>
+                                <span class="socialicons_h ico2h"></span>
+                            </a>
+                            <a href="#" class="gplus">
+                                <span class="socialicons ico3"></span>
+                                <span class="socialicons_h ico3h"></span>
+                            </a>
+                            <a href="#" class="flickr">
+                                <span class="socialicons ico4"></span>
+                                <span class="socialicons_h ico4h"></span>
+                            </a>
+                            <a href="#" class="pinterest">
+                                <span class="socialicons ico5"></span>
+                                <span class="socialicons_h ico5h"></span>
+                            </a>
+                            <a href="#" class="dribble">
+                                <span class="socialicons ico6"></span>
+                                <span class="socialicons_h ico6h"></span>
+                            </a>
+                            <a href="#" class="behance">
+                                <span class="socialicons ico7"></span>
+                                <span class="socialicons_h ico7h"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row copyright">
+                        <div class="span12">
+                            © 2013 Clean Canvas. All rights reserved. Theme by Detail Canvas.
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script type="text/javascript" src="js/index-slider.js"></script>	
+</body>
+<%= yield %>
+</html>
